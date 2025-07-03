@@ -107,7 +107,7 @@ Cat Form
 #showtooltip Cat Form
 /cancelform [noform:1/3]
 /stopcasting
-/use Cat Form
+/use !Cat Form
 ```
 
 Bear Form
@@ -115,7 +115,7 @@ Bear Form
 #showtooltip Bear Form
 /cancelform [noform:1/3]
 /stopcasting
-/use Bear Form
+/use !Bear Form
 ```
 
 Faerie Fire
