@@ -105,7 +105,7 @@ Maul
 Cat Form
 ```
 #showtooltip Cat Form
-/cancelform [noform:1/3]
+/cancelform [form:5]
 /stopcasting
 /use !Cat Form
 ```
@@ -113,7 +113,7 @@ Cat Form
 Bear Form
 ```
 #showtooltip Bear Form
-/cancelform [noform:1/3]
+/cancelform [form:5]
 /stopcasting
 /use !Bear Form
 ```
@@ -182,9 +182,38 @@ Druid 15
 
 Feral Charge
 ```
-#showtooltip Wile Charge(form:1)
-/stopcasting [@mouseover,harm,nodead] [harm,nodead]
-/use [@mouseover,harm,nodead,noform:1] [harm,nodead,noform:1] Bear Form
-/use [@mouseover,harm,nodead,form:1] [form:1] WIld Charge
+#showtooltip Wild Charge
+/cancelform[@mouseover,nodead,form:5,talent:1/3][nodead,form:5,talent:1/3]
+/use[@mouseover,harm,nodead,noform:1,talent:1/3][harm,nodead,noform:1,talent:1/3]Bear Form
+/use[@mouseover,nodead,talent:1/3][]Wild Charge
+```
+
+Wild Charge
+```
+#showtooltip
+/cancelform [@mouseover,nodead,form:5,talent:1/3][nodead,form:5,talent:1/3]
+/use [talent:1/2] Displacer Beast
+/use [@mouseover,nodead,talent:1/3] [talent:1/3] Wild Charge
+```
+
+```  
+#showtooltip
+/cancelform [@mouseover,nodead,form:5,talent:1/3][nodead,form:5,talent:1/3]
+/use [talent:1/2] Displacer Beast
+/use [@mouseover,nodead,talent:1/3] [talent:1/3] Wild Charge
+```
+```
+#showtooltip
+/cancelform[@mouseover,nodead,form:5,talent:1/3][nodead,form:5,talent:1/3]
+/use[talent:1/2] Displacer Beast
+/use[@mouseover,harm,nodead,noform:1,talent:1/3][harm,nodead,noform:1,talent:1/3]Bear Form
+/use[@mouseover,nodead,talent:1/3][]Wild Charge
+```
+
+```
+#showtooltip
+/cancelform [@mouseover,nodead,form:5,talent:1/3][nodead,form:5,talent:1/3]
+/use [@mouseover,harm,nodead,noform:1,talent:1/3][harm,nodead,noform:1,talent:1/3]Bear Form
+/use [@mouseover,harm,nodead,form:1,talent:1/3][form:1,talent:1/3]Wild Charge
 ```
 
