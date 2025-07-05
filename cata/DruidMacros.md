@@ -197,7 +197,33 @@ Wild Charge
 /use [@mouseover,nodead,talent:1/3] [talent:1/3] Wild Charge
 ```
 
+Cat Leap
+```
+#showtooltip Wild Charge
+/cancelform [@mouseover,exists,form:5][exists,form:5][@mouseover,help,form:3][help,form:3]
+/use [@mouseover,harm,noform:1/3]Cat Form;[@mouseover,exists]Wild Charge;[harm,noform:1/3]Cat Form;Wild Charge
+```
 
+#showtooltip
+/use [talent:1/2] Displacer Beast
+/stopmacro [notalent:1/3]
+/cancelform [@mouseover,nodead,form:5][nodead,form:5]
+/use [@mouseover,harm,noform:1/3][harm,noform:1/3]Bear Form
+/use [@mouseover,nodead][]Wild Charge
+
+
+#showtooltip
+/use [talent:1/2] Displacer Beast
+/stopmacro [notalent:1/3]
+/cancelform [@mouseover,nodead,form:5][nodead,form:5]
+/use [@mouseover,harm,noform:1/3]Bear Form;[@mouseover,nodead]Wild Charge;[harm,noform:1/3]Bear Form;Wild Charge
+/use [harm,noform:1/3]Bear Form;Wild Charge
+
+
+
+#showtooltip Wild Charge
+/cancelform [@mouseover,exists,form:5][exists,form:5][@mouseover,help,form:3][help,form:3]
+/use [@mouseover,harm,noform:1/3]Cat Form;[@mouseover,exists]Wild Charge;[harm,noform:1/3]Cat Form;Wild Charge
 
 
 
