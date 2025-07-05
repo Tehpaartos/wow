@@ -183,9 +183,10 @@ Druid 15
 Feral Charge
 ```
 #showtooltip Wild Charge
-/cancelform[@mouseover,nodead,form:5,talent:1/3][nodead,form:5,talent:1/3]
-/use[@mouseover,harm,nodead,noform:1,talent:1/3][harm,nodead,noform:1,talent:1/3]Bear Form
-/use[@mouseover,nodead,talent:1/3][]Wild Charge
+/stopmacro [@mouseover,harm,nodead,notalent:1/3][harm,nodead,notalent:1/3]
+/cancelform [form:5]
+/use [@mouseover,noform:1][noform:1]Bear Form
+/use [@mouseover][]Wild Charge
 ```
 
 Wild Charge
@@ -196,6 +197,69 @@ Wild Charge
 /use [@mouseover,nodead,talent:1/3] [talent:1/3] Wild Charge
 ```
 
+
+
+
+
+
+Testing
+
+```
+#showtooltip Wild Charge
+/stopmacro [@mouseover,nodead,notalent:1/3][nodead,notalent:1/3]
+/cancelform [form:5]
+/use [@mouseover,harm,noform:1][harm,noform:1]Bear Form
+/use [@mouseover,harm,noform:1]Bear Form;[@mouseover][help]Wild Charge;[harm,noform:1]Bear Form;Wild Charge
+
+/use [@mouseover][]Wild Charge
+
+
+```
+
+
+
+
+
+```
+#showtooltip
+/use [talent:1/2] Displacer Beast
+/stopmacro [notalent:1/3]
+/cancelform [@mouseover,nodead,form:5] [nodead,form:5]
+/use [@mouseover,nodead] [nodead] Wild Charge
+```
+
+
+```
+#showtooltip Wild Charge
+/stopmacro [@mouseover,nodead,notalent:1/3][nodead,notalent:1/3]
+/cancelform [form:5]
+/use [@mouseover,harm,noform:1][harm,noform:1]Bear Form
+/use [@mouseover][]Wild Charge
+```
+
+```
+#showtooltip
+/stopmacro [@mouseover,nodead,notalent:1/3][nodead,notalent:1/3]
+/cancelform [form:5]
+/use [@mouseover,harm,nodead,noform:1]Bear Form;[@mouseover,nodead][help,nodead]Wild Charge;[harm,noform:1]Bear Form;Wild Charge
+```
+
+```
+[@mouseover,harm,nodead] [harm,nodead] Wrath; Healing Touch
+```
+
+
+
+
+ 
+
+
+
+
+
+
+
+
 ```  
 #showtooltip
 /cancelform [@mouseover,nodead,form:5,talent:1/3][nodead,form:5,talent:1/3]
@@ -203,17 +267,20 @@ Wild Charge
 /use [@mouseover,nodead,talent:1/3] [talent:1/3] Wild Charge
 ```
 ```
-#showtooltip
-/cancelform[@mouseover,nodead,form:5,talent:1/3][nodead,form:5,talent:1/3]
-/use[talent:1/2] Displacer Beast
-/use[@mouseover,harm,nodead,noform:1,talent:1/3][harm,nodead,noform:1,talent:1/3]Bear Form
-/use[@mouseover,nodead,talent:1/3][]Wild Charge
+#showtooltip Wild Charge
+/stopmacro [notalent:1/3]
+/cancelform [@mouseover,harm,nodead,form:5][harm,nodead,form:5]
+/use [@mouseover,harm,nodead,noform:1][harm,nodead,noform:1]Bear Form
+/castsequence [@mouseover,harm,nodead][]Wild Charge,Growl
 ```
 
 ```
 #showtooltip
+/stopmacro [noform:1]
+
+/stopmacro [notalent:1/3]
 /cancelform [@mouseover,nodead,form:5,talent:1/3][nodead,form:5,talent:1/3]
 /use [@mouseover,harm,nodead,noform:1,talent:1/3][harm,nodead,noform:1,talent:1/3]Bear Form
-/use [@mouseover,harm,nodead,form:1,talent:1/3][form:1,talent:1/3]Wild Charge
+/castsequence [@mouseover,harm,nodead,form:1,talent:1/3][form:1,talent:1/3]Wild Charge,Growl
 ```
 
