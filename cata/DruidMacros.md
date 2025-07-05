@@ -140,7 +140,9 @@ Rebirth/Mark
 Healing Touch (Feral)
 ```
 #showtooltip Healing Touch
+/console autoUnshift 0
 /use [@mouseover,help,nodead] [@playertarget,help,nodead,form:1/3] [@playertargettarget,help,nodead,form:1/3] [] Healing Touch
+/console autoUnshift 1
 ```
 
 Rejuv/Moonfire
