@@ -84,8 +84,8 @@ Mangle
 Pounce/Maim
 ```
 #showtooltip
-/startattack [nostealth]
 /use [stealth] Pounce; [nostealth] Maim
+/startattack [nostealth]
 ```
 
 Shread/Ravage(Stealth/Incarnation)
