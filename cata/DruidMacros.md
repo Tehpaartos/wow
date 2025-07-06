@@ -88,11 +88,11 @@ Pounce/Maim
 /use [stealth] Pounce; [nostealth] Maim
 ```
 
-Shread/Ravage
+Shread/Ravage(Stealth/Incarnation)
 ```
 #showtooltip
-/startattack [nostealth]
 /use [stealth] Ravage; [nostealth] Shred
+/startattack [nostealth]
 ```
 
 Maul
@@ -162,7 +162,7 @@ Druid 45
 #showtooltip
 /use [@mouseover,harm,nodead,talent:3/1] [talent:3/1] Faerie Fire
 /use [@mouseover,harm,nodead,talent:3/2] [talent:3/2] Mass Entanglement
-/use [@mouseover,harm,nodead,talent:3/3] [talent:3/3] Typhoon
+/use [talent:3/3] Typhoon
 ```
 
 Druid 75
