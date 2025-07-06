@@ -84,7 +84,7 @@ Mangle
 Pounce/Maim
 ```
 #showtooltip
-/use [stealth] Pounce; [nostealth] Maim
+/use [stealth] Pounce; Maim
 /startattack [nostealth]
 ```
 
