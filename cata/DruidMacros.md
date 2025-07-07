@@ -34,6 +34,7 @@ Stampeding Roar
 ```
 #showtooltip Stampeding Roar
 /cancelaura Dash
+/cancelaura Nitro Boosts
 /use Stampeding Roar
 ```
 
