@@ -7,7 +7,7 @@ Arcane Shot
 /use [@mouseover,harm,nodead][]Arcane Shot
 /startattack
 /stopmacro [@pettarget,noexists]
-/use Bite
+/use [@pettarget]Bite
 /use Rabid
 /use Furious Howl
 ```
@@ -19,7 +19,7 @@ Cobra Shot
 /use [@mouseover,harm,nodead][]Cobra Shot
 /startattack
 /stopmacro [@pettarget,noexists]
-/use Bite
+/use [@pettarget]Bite
 /use Rabid
 /use Furious Howl
 ```
@@ -31,7 +31,7 @@ A Murder of Crows
 /use [@mouseover,harm,nodead][]A Murder of Crows
 /startattack
 /stopmacro [@pettarget,noexists]
-/use Bite
+/use [@pettarget]Bite
 /use Rabid
 /use Furious Howl
 ```
@@ -43,7 +43,7 @@ Black Arrow
 /use [@mouseover,harm,nodead][]Black Arrow
 /startattack
 /stopmacro [@pettarget,noexists]
-/use Bite
+/use [@pettarget]Bite
 /use Rabid
 /use Furious Howl
 ```
@@ -55,7 +55,7 @@ Explosive Shot
 /use [@mouseover,harm,nodead][]Explosive Shot
 /startattack
 /stopmacro [@pettarget,noexists]
-/use Bite
+/use [@pettarget]Bite
 /use Rabid
 /use Furious Howl
 ```
@@ -67,7 +67,7 @@ Kill Shot
 /use [@mouseover,harm,nodead][]Kill Shot
 /startattack
 /stopmacro [@pettarget,noexists]
-/use Bite
+/use [@pettarget]Bite
 /use Rabid
 /use Furious Howl
 ```
@@ -79,7 +79,7 @@ Multi-Shot
 /use [@mouseover,harm,nodead][]Multi-Shot
 /startattack
 /stopmacro [@pettarget,noexists]
-/use Bite
+/use [@pettarget]Bite
 /use Rabid
 /use Furious Howl
 ```
@@ -91,7 +91,7 @@ Serpent Sting
 /use [@mouseover,harm,nodead][]Serpent Sting
 /startattack
 /stopmacro [@pettarget,noexists]
-/use Bite
+/use [@pettarget]Bite
 /use Rabid
 /use Furious Howl
 ```
