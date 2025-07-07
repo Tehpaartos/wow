@@ -1,0 +1,74 @@
+Stormstrike
+```
+#showtooltip
+/startattack
+/use Stormstrike
+```
+
+Lava Lash
+```
+#showtooltip
+/startattack
+/use Lava Lash
+```
+
+Unleash Elements
+```
+#showtooltip
+/startattack
+/use Unleash Elements
+```
+
+Flame Shock
+```
+#showtooltip
+/startattack
+/use [@mouseover,harm,nodead] [] Flame Shock
+```
+
+Earth Shock
+```
+#showtooltip
+/startattack
+/use [@mouseover,harm,nodead] [] Earth Shock
+```
+
+Frost Shock
+```
+#showtooltip
+/startattack
+/use [@mouseover,harm,nodead] [] Frost Shock
+```
+
+Lightning Bolt/Healing Surge
+```
+#showtooltip
+/use [@mouseover,harm,nodead] Lightning Bolt; [@mouseover,help,nodead] [help,nodead] Healing Surge; Lightning Bolt
+```
+
+Chain Lighting/Chain Heal
+```
+#showtooltip
+/startattack
+/use [@mouseover,harm,nodead] Chain Lighting; [@mouseover,help,nodead] [help,nodead] Chain Heal; Chain Lighting
+```
+
+Purge/Cleanse Spirt
+```
+#showtooltip
+/use [@mouseover,help,nodead] Cleanse Spirit; [@mouseover,harm,nodead] [harm,nodead] Purge; Cleanse Spirit
+```
+
+Haeling Rain
+```
+#showtooltip
+/use [@cursor] Healing Rain
+```
+
+Sharman 45
+```
+#showtooltip
+/use [talent:3/1] Call of the Elements
+/use [talent:3/2] Totemic Persistence
+/use [@cursor,talent:3/3] Totemic Projection
+```
