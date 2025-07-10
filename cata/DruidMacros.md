@@ -92,7 +92,7 @@ Pounce/Maim
 Shread/Ravage(Stealth/Incarnation)
 ```
 #showtooltip
-/use [stealth] Ravage; [nostealth] Shred
+/use [known:Ravage!][stealth] Ravage; Shred
 /startattack [nostealth]
 ```
 
