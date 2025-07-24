@@ -160,7 +160,7 @@ Healing T/Wrath
 
 Prowl
 ```
-#showtooltip
+#showtooltip Prowl
 /cast [nocombat] !Prowl
 ```
 
