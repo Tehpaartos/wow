@@ -209,11 +209,12 @@ Cat Leap
 /use [@mouseover,harm,noform:1/3]Cat Form;[@mouseover,exists]Wild Charge;[harm,noform:1/3]Cat Form;Wild Charge
 ```
 
+Feral Nature's Swiftness
 ```
 #showtooltip 
 /console autounshift 0
 /cast Nature's Swiftness
-/use [@mouseover,help,nodead] Healing Touch; [@mouseover,harm,nodead] [harm,nodead] Wrath; Healing Touch
+/use [@mouseover,help,nodead] [help,nodead,form:1/3] [@playertargettarget,help,nodead,form:1/3] [] Healing Touch
 /console autounshift 1
 ```
 
