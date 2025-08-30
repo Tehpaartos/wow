@@ -209,6 +209,14 @@ Cat Leap
 /use [@mouseover,harm,noform:1/3]Cat Form;[@mouseover,exists]Wild Charge;[harm,noform:1/3]Cat Form;Wild Charge
 ```
 
+```
+#showtooltip 
+/console autounshift 0
+/cast Nature's Swiftness
+/use [@mouseover,help,nodead] Healing Touch; [@mouseover,harm,nodead] [harm,nodead] Wrath; Healing Touch
+/console autounshift 1
+```
+
 
 
 Testing
