@@ -218,6 +218,15 @@ Feral Nature's Swiftness
 /console autounshift 1
 ```
 
+Berserk & HoTW
+```
+#showtooltip 
+/use Berserk
+/use [talent:6/1] Heart of the Wild
+```
+
+
+
 
 
 Testing
