@@ -277,3 +277,9 @@ Fervor
 /use Fervor
 ```
 
+Hunter 90
+```
+#showtooltip
+/use [@mouseover,harm,nodead,talent:6/1] [talent:6/1] Glaive Toss
+/use [@mouseover,harm,nodead,talent:6/3] [talent:6/3] Barrage
+```
