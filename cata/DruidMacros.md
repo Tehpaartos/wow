@@ -164,6 +164,14 @@ Prowl
 /cast [nocombat] !Prowl
 ```
 
+Druid 15
+```
+#showtooltip
+/use [talent:1/2] Displacer Beast
+/stopmacro [notalent:1/3]
+/use [@mouseover,help,nodead,noform][@mouseover,harm,nodead,form:1/3] [] Wild Charge
+```
+
 Druid 45
 ```
 #showtooltip
@@ -180,12 +188,6 @@ Druid 75
 /use [@mouseover,harm,nodead,talent:5/3] [talent:5/3] Mighty Bash 
 ```
 
-Druid 15
-```
-#showtooltip
-/use [talent:1/2] Displacer Beast
-/use [@mouseover,help,nodead,noform,talent:1/3][@mouseover,harm,nodead,form:1/3,talent:1/3] [] Wild Charge
-```
 Wild Charge
 ```
 #showtooltip
